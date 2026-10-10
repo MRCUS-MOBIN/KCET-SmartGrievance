@@ -1,0 +1,58 @@
+KCET 360° SmartGrievance — NLP Evaluation Report
+============================================================
+
+Total samples   : 711
+Test accuracy   : 69.9%
+5-Fold CV acc   : 71.9% ± 4.9%
+
+Per-Category Sample Count:
+   36  Administration & General Services
+   35  All Academic Departments
+   36  Campus Environment & Sustainability
+   36  Campus Infrastructure & Maintenance
+   36  Canteen & Food Services
+   28  Events, Clubs & Student Activities
+   36  Examinations & Academic Administration
+   36  Faculty, Staff & Department Administration
+   36  Fees, Scholarships & Finance
+   36  Hostel & Residential Facilities
+   36  IT, Wi-Fi & Digital Services
+   36  Laboratories & Workshops
+   36  Library & Learning Resources
+   36  Physical Education (PT) & Sports
+   36  Placement, Internship & Career Services
+   36  Safety, Respect & Student Protection
+   36  Student Welfare & Health
+   36  Toilets & Sanitation
+   36  Transport & College Buses
+   36  Xerox, Stationery & Campus Shops
+
+Classification Report:
+                                            precision    recall  f1-score   support
+
+         Administration & General Services       0.67      0.57      0.62         7
+                  All Academic Departments       0.25      0.14      0.18         7
+       Campus Environment & Sustainability       0.25      0.14      0.18         7
+       Campus Infrastructure & Maintenance       0.43      0.86      0.57         7
+                   Canteen & Food Services       0.88      1.00      0.93         7
+        Events, Clubs & Student Activities       0.67      0.67      0.67         6
+    Examinations & Academic Administration       0.75      0.86      0.80         7
+Faculty, Staff & Department Administration       0.67      0.86      0.75         7
+              Fees, Scholarships & Finance       1.00      0.62      0.77         8
+           Hostel & Residential Facilities       0.89      1.00      0.94         8
+              IT, Wi-Fi & Digital Services       0.80      0.57      0.67         7
+                  Laboratories & Workshops       0.71      0.71      0.71         7
+              Library & Learning Resources       1.00      0.88      0.93         8
+          Physical Education (PT) & Sports       0.33      0.43      0.38         7
+   Placement, Internship & Career Services       0.71      0.71      0.71         7
+      Safety, Respect & Student Protection       0.67      0.57      0.62         7
+                  Student Welfare & Health       0.62      0.62      0.62         8
+                      Toilets & Sanitation       0.86      0.86      0.86         7
+                 Transport & College Buses       1.00      0.86      0.92         7
+          Xerox, Stationery & Campus Shops       0.88      1.00      0.93         7
+
+                                  accuracy                           0.70       143
+                                 macro avg       0.70      0.70      0.69       143
+                              weighted avg       0.71      0.70      0.69       143
+
+Note: NLP assists routing — human review is always required for final decisions.
